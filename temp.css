@@ -47,8 +47,13 @@ i{
     box-shadow: 0 20px 25px rgba(7, 234, 121, 0.25);
     left: 0px;
     margin-right: 20px;
-
-
+}
+h2{
+    position: relative;
+    left: 15px;
+}
+h2 img{
+    width: 50px;
 }
 .temp1{
     display: inline-block;
@@ -56,7 +61,7 @@ i{
     width: 45%;
     position:relative;
     box-shadow: 0 20px 25px rgba(7, 234, 121, 0.25);
-    left: 25px;
+    left: 5px;
     margin-right: 5px;
     padding-left: 10px;
 }
@@ -86,30 +91,39 @@ input{
     width: 300px;
     position: relative;
     left:50px ;
+    top: -100px;
     height: 350px;
 }
  .temp{
     padding: 0;
     position: relative;
-    left: 50px;
+    left: 35px;
     display: block;
     padding: 0;
     height: 154px;
+    width: 45vw;
 
  }
  .temp1{
     padding: 0;
     position: relative;
-    left: 50px;
+    left: 35px;
     display: block;
     padding: 0;
     width: 150px;
     height: 154px;
+    width: 45vw;
  }
  nav{
     position: relative;
-    left:-60px
+    left:-65px;
+    top:-25px;
  }
+ h2{
+    position: relative;
+    left: 15px;
+    top:-90px;
+}
 }
 
 
