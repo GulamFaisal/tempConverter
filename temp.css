@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: large;
+}
+body{
+    background: linear-gradient(rgba(11, 224, 135, 0.95),rgb(7, 228, 136));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+    
+h2{
+    text-align: center;
+    position: relative;
+    top:75px;
+    right: 20px;
+    font-size: 35px;
+    color: whitesmoke;
+    padding: 15px;
+}
+i{
+    color: white;
+}
+.converter{
+    justify-content: center;
+    text-align: center;
+    width:35%;
+    height: 200px;
+    position: relative;
+    top: 75px;
+    left: 500px;
+    background: whitesmoke;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+    display: inline-block;
+    border: white solid 2px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.temp{
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+    position:relative;
+    box-shadow: 0 20px 25px rgba(7, 234, 121, 0.25);
+    left: 0px;
+    margin-right: 20px;
+
+
+}
+.temp1{
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+    position:relative;
+    box-shadow: 0 20px 25px rgba(7, 234, 121, 0.25);
+    left: 25px;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+label{
+    display: flex;
+    padding: 15px;
+    font-size: x-large;
+    font-weight: solid 10px;
+    
+}
+b{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    display: flex;
+    margin: 15px;
+    width:65%;
+    border-radius: 5px;
+    border-bottom-color:blue ;
+    border-top-color: rgba(229, 255, 0, 0.952);
+    font-size: larger;
+    padding: 5px;
+}
+@media(max-width:1200px) {
+    .converter{
+    width: 300px;
+    position: relative;
+    left:50px ;
+    height: 350px;
+}
+ .temp{
+    padding: 0;
+    position: relative;
+    left: 50px;
+    display: block;
+    padding: 0;
+    height: 154px;
+
+ }
+ .temp1{
+    padding: 0;
+    position: relative;
+    left: 50px;
+    display: block;
+    padding: 0;
+    width: 150px;
+    height: 154px;
+ }
+ nav{
+    position: relative;
+    left:-60px
+ }
+}
+
+
+
